@@ -83,6 +83,7 @@ module Travis
             oauth2:               {},
             webhook:              { public_key: nil },
             cache_options:        {},
+            build_backup_options: {},
             merge:                { auth_token: 'merge-auth-token', api_url: 'https://merge.localhost' },
             force_authentication: false,
             yml:                  { url: 'https://yml.travis-ci.org', token: 'secret', auth_key: 'abc123' },
